@@ -32,10 +32,7 @@
 
 ## Ссылка на опубликованный проект
 
-GitHub Pages: ## Текущий статус
-
-
-GitHub Pages: https://Ydemi424.github.io/kr1-html-css-shop/
+GitHub Pages: 
 
 ## Постановка контрольной работы №1
 
@@ -59,4 +56,3 @@ GitHub Pages: https://Ydemi424.github.io/kr1-html-css-shop/
 
 - Практическая работа 1: создан Git-репозиторий, опубликован проект на GitHub Pages.
 - Практическая работа 2: создан HTML-каркас стартовой страницы и выполнено базовое CSS-оформление.
-
