@@ -60,6 +60,7 @@ GitHub Pages: https://Ydemi424.github.io/kr1-html-css-shop/
 - Практическая работа 1: создан Git-репозиторий, опубликован проект на GitHub Pages.
 - Практическая работа 2: создан HTML-каркас стартовой страницы и выполнено базовое CSS-оформление.
 
+<<<<<<< HEAD
 ## История выполнения
 
 - Практическая работа 1: создан Git-репозиторий, опубликован проект на GitHub Pages.
@@ -74,3 +75,5 @@ GitHub Pages: https://Ydemi424.github.io/kr1-html-css-shop/
 - базовая HTML-валидация;
 - базовая JS-обработка формы;
 - сообщение об успешной отправке.
+=======
+>>>>>>> parent of 3dc3c95 (Revert "feat: add order form modal and validation")
