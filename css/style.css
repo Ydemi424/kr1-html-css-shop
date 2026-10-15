@@ -459,3 +459,76 @@ a:focus-visible {
 [aria-invalid="true"] {
   border-color: var(--color-danger);
 }
+
+/* Навигация и якорные ссылки многостраничного сайта. */
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  outline: 2px dashed var(--color-primary);
+  outline-offset: 4px;
+}
+
+.site-nav__list a[aria-current="page"] {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.breadcrumbs {
+  max-width: var(--container-width);
+  margin: 0 auto var(--space-md);
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+.breadcrumbs a {
+  color: var(--color-primary);
+}
+
+.breadcrumbs span::before {
+  content: " / ";
+  color: var(--color-muted);
+}
+
+.site-footer {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.hero-link {
+  display: inline-block;
+  margin: var(--space-sm);
+}
+
+.product-card__link {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.contact-details {
+  font-style: normal;
+}
+
+.contact-details li {
+  margin-bottom: var(--space-sm);
+}
+
+/* Переносимое меню на узком экране не перекрывает цель якоря. */
+@media (max-width: 540px) {
+  header {
+    position: static;
+  }
+
+  .section {
+    scroll-margin-top: var(--space-md);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
